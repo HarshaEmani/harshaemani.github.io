@@ -1,0 +1,57 @@
+# section information
+section:
+    name: Education
+    id: education
+    template: sections/education.html # Use "sections/education-alt.html for alternate template.
+    enable: true
+    weight: 4
+    showOnNavbar: true
+    # Can optionally hide the title in sections
+    # hideTitle: true
+
+degrees:
+    - name: Master of Computer Science
+      icon: fa-graduation-cap
+      timeframe: 2023-2025
+      institution:
+          name: University of New Brunswick
+          url: "#"
+          logo: /images/sections/experiences/unb.png
+          # Can optionally show a different logo for dark theme
+          # darkLogo: /images/sections/education/tech_college.png
+      # grade: #(optional)
+      #   scale: CGPA
+      #   achieved: 3.6
+      #   outOf: 4
+
+      customSections: #(optional)
+          - name: Thesis
+            content: Hybrid LSTM–RLS Day-Ahead Net Load Demand Forecasting for Barbados Distribution Feeders
+          - name: Supervisor
+            content: Dr. Julian Cardenas Barrera
+
+    - name: Bachelor of Technology in Information Technology
+      icon: fa-university
+      timeframe: 2015-2019
+      institution:
+          name: Vishnu Institute of Technology
+          url: "#"
+          logo: /images/sections/experiences/sves.png
+          # Can optionally show a different logo for dark theme
+          # darkLogo: /images/sections/education/university.jpg
+
+      extracurricularActivities: #(optional)
+          - Participated in coding clubs and won prizes at tech fests
+          - Organized workshops and hackathons to promote technology and innovation
+          - Collaborated with peers on various software development projects
+          - Won debates at inter-college competitions
+
+    - name: Higher Secondary School Certificate
+      icon: fa-school
+      timeframe: 2013-2015
+      institution:
+          name: Narayana Jr. College
+          url: "#"
+          # logo: /images/sections/education/science_college.png
+          # Can optionally show a different logo for dark theme
+          # darkLogo: /images/sections/education/science_college.png

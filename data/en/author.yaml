@@ -1,0 +1,21 @@
+# some information about you
+name: "Harsha Emani"
+nickname: "Harsha"
+# greeting message before your name. it will default to "Hi! I am" if not provided
+greeting: "Hi, I am"
+image: "images/author/harsha.png"
+# give your some contact information. they will be used in the footer
+contactInfo:
+    email: "harsha.emani987@gmail.com"
+    phone: "+1 (506) 440-0282"
+    github: HarshaEmani
+    linkedin: harsha-emani
+    # researchgate: john-doe
+
+# some summary about what you do
+summary:
+    - I am a Fullstack Developer
+    - I am a Machine Learning Engineer
+    - I love Machine Learning and Artificial Intelligence
+    - I am a CS Grad Student
+    - I love to work and collaborate on interesting projects

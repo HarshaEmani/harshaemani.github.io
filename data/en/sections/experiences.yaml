@@ -1,0 +1,79 @@
+# section information
+section:
+    name: Professional Experience
+    id: experiences
+    enable: true
+    weight: 3
+    showOnNavbar: true
+    # Can optionally hide the title in sections
+    # hideTitle: true
+
+# Your experiences
+experiences:
+    - company:
+          name: University of New Brunswick
+          url: "https://www.example.com"
+          location: Fredericton, New Brunswick
+          logo: /images/sections/experiences/unb.png
+          # Can optionally show a different logo for dark theme
+          # darkLogo: /images/sections/experiences/company1.jpg
+          # company overview
+          # overview: Example Co. is a widely recognized company for cloud-native development. It builds tools for Kubernetes.
+      positions:
+          - designation: Graduate Research Assistant
+            start: May 2024
+            end: August 2024
+            # don't provide end date if you are currently working there. It will be replaced by "Present"
+            # end: Dec 2020
+            # give some points about what was your responsibilities at the company.
+            responsibilities:
+                - Implemented a functional Deep Learning model for forecasting the load demand of a Renewable Energy resource and developed a website to assess the performance and analytics for every prediction interval, improving prediction accuracy for a leading energy company
+                - Worked on design and implementation of a highly reliable and available microservices architecture to support similar forecasting tools built by the department
+
+    - company:
+          name: Mariner Innovations
+          url: "https://www.example.com"
+          location: Fredericton, New Brunswick
+          logo: /images/sections/experiences/mariner4.png
+          # Can optionally show a different logo for dark theme
+          # darkLogo: /images/sections/experiences/company2.jpg
+          # overview: PreExample Co. is a gateway company to enter into Example co. So, nothing special here.
+      positions:
+          - designation: Developer Analyst Intern
+            start: May 2023
+            end: December 2023
+            responsibilities:
+                - Responsible for end to end SDLC and Fullstack web application including authentication / authorization, testing and deployment of an automated survey tool for assessing the industry readiness for companies
+                - Leveraged the experience from working on the first tool to work on a government project with similar responsibilities for building a tool for safe and controlled communication between ships and ports within Canada
+
+    - company:
+          name: Broadridge Financial Solutions
+          url: "https://www.example.com"
+          location: Hyderabad, India
+          logo: /images/sections/experiences/br.png
+          # Can optionally show a different logo for dark theme
+          # darkLogo: /images/sections/experiences/company3.jpg
+          # overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+      positions:
+          - designation: Member Technical
+            start: June 2021
+            end: January 2023
+            responsibilities:
+                - Handled End-to-End Fullstack development, deployed blockchain code, built and managed containers across different environments like Dev, QA, UAT and Production
+                - Worked as a GitLab maintainer, responsible for version control and code maintenance, code reviews, merging changes and maintaining tags for the team
+                - Collaborated effectively and assumed leadership for a medium-sized team, participated in daily scrum calls, addressed business needs, resolved support tickets and managed change processes for a Blockchain-based solution and contributed to winning the NASSCOM 2021 Innovation – Excellence award for the project
+
+    - company:
+          name: Tata Consultancy Services
+          url: "https://www.example.com"
+          location: Hyderabad, India
+          logo: /images/sections/experiences/tcs6.png
+          # Can optionally show a different logo for dark theme
+          # darkLogo: /images/sections/experiences/company3.jpg
+          # overview: Intern counting Company (ICC) is responsible for counting worldwide intern Engineers.
+      positions:
+          - designation: System Engineer
+            start: May 2019
+            end: June 2021
+            responsibilities:
+                - •	Monitored the performance and metrics, debugged issues, reported root cause analysis and took ownership of planned and unplanned outages for the backend of a highly available software application being used in over 100 countries with separate isolated environments in both on premise and cloud environments

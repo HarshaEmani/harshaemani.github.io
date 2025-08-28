@@ -1,0 +1,312 @@
+# section information
+section:
+    name: Skills
+    id: skills
+    enable: true
+    weight: 2
+    showOnNavbar: true
+    filter: true
+    # Can optionally hide the title in sections
+    # hideTitle: true
+
+# filter buttons
+buttons:
+    - name: All
+      filter: "all"
+    - name: Data Science
+      filter: "data science"
+    - name: Languages
+      filter: "language"
+    - name: Microservices
+      filter: "microservices"
+    - name: Web Development
+      filter: "web development"
+    - name: Concepts
+      filter: "concepts"
+    - name: Others
+      filter: "others"
+
+# Your Skills.
+# Give a summary of you each skill in the summary section.
+# skills:
+#     - name: Kubernetes
+# logo: /images/sections/skills/kubernetes.png
+#       summary: "Capable of deploying, managing application on Kubernetes. Experienced in writing Kubernetes controllers for CRDs."
+#       categories: ["container"]
+#       url: "https://kubernetes.io/"
+
+#     # - name: Go Development
+#   logo: /images/sections/skills/go.png
+#     #   summary: "Using as the main language for professional development. Capable of writing scalable, testable, and maintainable program."
+#     #   categories: ["basic", "language"]
+#     #   url: "https://golang.org/"
+
+#     - name: Cloud Computing
+# logo: /images/sections/skills/cloud.png
+#       summary: "Worked with most of the major clouds such as GCP, AWS, Azure etc."
+#       categories: ["others"]
+
+#     - name: Docker
+# logo: /images/sections/skills/docker.svg
+#       summary: "Write most of the programs as dockerized container. Experienced with multi-stage, multi-arch build process."
+#       categories: ["container"]
+#       url: "https://www.docker.com/"
+
+#     - name: Prometheus
+# logo: /images/sections/skills/prometheus.png
+#       summary: "Capable of setup, configure Prometheus metrics. Experienced with PromQL, AlertManager. Also, experienced with writing metric exporters."
+#       categories: ["basic"]
+#       url: "https://prometheus.io/"
+
+#     - name: Linux
+# logo: /images/sections/skills/linux.png
+#       summary: "Using as the main operating system. Capable of writing bash/shell scripts."
+#       categories: ["others"]
+
+#     - name: Git
+# logo: /images/sections/skills/git.png
+#       summary: "Experienced with git-based development. Mostly, use Github. Also, have experience in working with GitLab."
+#       categories: ["basic"]
+#       url: "https://git-scm.com/"
+
+#     - name: Java
+# logo: /images/sections/skills/java.png
+#       summary: "Competitive programming and problem solving"
+#       categories: ["language"]
+
+#     - name: Python
+# logo: /images/sections/skills/python.png
+#       summary: "Web development, data analysis, and machine learning"
+#       categories: ["language"]
+#       url: "https://www.python.org/"
+
+#     - name: JavaScript
+# logo: /images/sections/skills/javascript.png
+#       summary: "Web development and building responsive applications"
+#       categories: ["language"]
+#       url: "https://www.javascript.com/"
+
+skills:
+    - name: Python
+      # logo: /images/sections/skills/python.png
+      summary: "Web development, data analysis, competitive programming and machine learning"
+      categories: ["language", "data science", "web development", "others"]
+      url: "https://www.python.org/"
+
+    - name:
+          JavaScript
+          # logo: /images/sections/skills/javascript.png
+      summary: "Web development and building responsive applications"
+      categories: ["language", "web development"]
+      url: "https://www.javascript.com/"
+
+    - name: Java
+      # logo: /images/sections/skills/java.png
+      summary: "Competitive programming and problem solving"
+      categories: ["language"]
+      url: "https://www.java.com/"
+
+    - name: Pandas
+      # logo: /images/sections/skills/pandas.png
+      summary: "Data wrangling, joining, resampling, and feature engineering on datasets"
+      categories: ["data science"]
+      url: "https://pandas.pydata.org/"
+
+    - name: scikit-learn
+      # logo: /images/sections/skills/scikit-learn.png
+      summary: "Modeling pipelines, preprocessing, cross-validation, and model selection for classical ML"
+      categories: ["data science"]
+      url: "https://scikit-learn.org/"
+
+    - name: Matplotlib
+      # logo: /images/sections/skills/matplotlib.png
+      summary: "Publication-ready plots, custom axes, annotations, and figure layouts"
+      categories: ["data science"]
+      url: "https://matplotlib.org/"
+
+    # - name: Seaborn
+    #   # logo: /images/sections/skills/seaborn.png
+    #   summary: "Statistical visualizations and quick EDA with clean aesthetics."
+    #   categories: ["data science"]
+    #   url: "https://seaborn.pydata.org/"
+
+    # - name: Keras
+    #   # logo: /images/sections/skills/keras.png
+    #   summary: "Rapid prototyping of neural networks; callbacks, custom losses, and model export."
+    #   categories: ["data science"]
+    #   url: "https://keras.io/"
+
+    - name: TensorFlow
+      # logo: /images/sections/skills/tensorflow.png
+      summary: "End-to-end DL workflows, TF Datasets, GPU training"
+      categories: ["data science"]
+      url: "https://www.tensorflow.org/"
+
+    - name: Django
+      # logo: /images/sections/skills/django.png
+      summary: "Full-stack web apps with ORM, auth, admin, and REST integrations"
+      categories: ["web development"]
+      url: "https://www.djangoproject.com/"
+
+    - name: FastAPI
+      # logo: /images/sections/skills/fastapi.png
+      summary: "REST API services"
+      categories: ["web development", "microservices"]
+      url: "https://fastapi.tiangolo.com/"
+
+    - name: PostgreSQL
+      # logo: /images/sections/skills/postgresql.png
+      summary: "Schema design, indexing, query optimization, and ETL for analytics backends"
+      categories: ["web development", "data science"]
+      url: "https://www.postgresql.org/"
+
+    - name: MongoDB
+      # logo: /images/sections/skills/mongodb.png
+      summary: "Document data modeling, aggregation pipelines, and fast prototyping"
+      categories: ["web development"]
+      url: "https://www.mongodb.com/"
+
+    # - name: ReactJS
+    #   # logo: /images/sections/skills/react.png
+    #   summary: "SPA development with hooks, state management, and component systems."
+    #   categories: ["web development"]
+    #   url: "https://react.dev/"
+
+    - name: NextJS
+      # logo: /images/sections/skills/nextjs.png
+      summary: "SSR/SSG apps, API routes"
+      categories: ["web development"]
+      url: "https://nextjs.org/"
+
+    # - name: VueJS
+    #   # logo: /images/sections/skills/vue.png
+    #   summary: "Reactive UIs with composition API and ecosystem tooling."
+    #   categories: ["web development"]
+    #   url: "https://vuejs.org/"
+
+    - name: NuxtJS
+      # logo: /images/sections/skills/nuxt.png
+      summary: "Meta-framework for Vue: SSR/ISR, routing, and server APIs"
+      categories: ["web development"]
+      url: "https://nuxt.com/"
+
+    - name: Figma
+      # logo: /images/sections/skills/figma.png
+      summary: "Software design"
+      categories: ["web development"]
+      url: "https://www.figma.com/"
+
+    # - name: SAML
+    #   # logo: /images/sections/skills/saml.png
+    #   summary: "Single sign-on integrations with IdPs; assertions, metadata, and security bindings."
+    #   categories: ["web development", "concepts", "others"]
+    #   url: "https://en.wikipedia.org/wiki/SAML_2.0"
+
+    - name: OAuth
+      # logo: /images/sections/skills/oauth.png
+      summary: "OAuth2/OIDC flows (Auth Code, PKCE), scopes, tokens, and refresh strategies"
+      categories: ["concepts"]
+      url: "https://oauth.net/2/"
+
+    - name: Hyperledger Fabric
+      # logo: /images/sections/skills/hyperledger-fabric.png
+      summary: "Permissioned blockchain networks, chaincode, channels, and endorsements"
+      categories: ["others"]
+      url: "https://www.hyperledger.org/use/fabric"
+
+    - name: Docker
+      # logo: /images/sections/skills/docker.png
+      summary: "Containerizing apps, Docker compose"
+      categories: ["microservices"]
+      url: "https://www.docker.com/"
+
+    - name: Kubernetes
+      # logo: /images/sections/skills/kubernetes.png
+      summary: "Deployments, Services, Helm, and production deployments for clusters"
+      categories: ["microservices"]
+      url: "https://kubernetes.io/"
+
+    - name: Jenkins
+      # logo: /images/sections/skills/jenkins.png
+      summary: "CI/CD pipelines with declarative Jenkinsfiles, artifacts, and environment promotion"
+      categories: ["microservices"]
+      url: "https://www.jenkins.io/"
+
+    - name: IBM Cloud
+      # logo: /images/sections/skills/ibm-cloud.png
+      summary: "Provisioning compute, containers, and managed services on IBM Cloud"
+      categories: ["microservices"]
+      url: "https://www.ibm.com/cloud"
+
+    - name: GitLab
+      # logo: /images/sections/skills/gitlab.png
+      summary: "Repos, issues, CI/CD workflows"
+      categories: ["microservices"]
+      url: "https://about.gitlab.com/"
+
+    - name: Linux
+      # logo: /images/sections/skills/linux.png
+      summary: "Server administration, networking, shell scripting"
+      categories: ["others", "microservices"]
+      url: "https://kernel.org/"
+
+    - name: Proxmox VE
+      # logo: /images/sections/skills/proxmox.png
+      summary: "Virtualization with LXC containers on homelab"
+      categories: ["others", "microservices"]
+      url: "https://www.proxmox.com/"
+
+    # Concepts
+    - name: Software Development Lifecycle (SDLC)
+      # logo: /images/sections/skills/sdlc.png
+      summary: "Requirements gathering, design, implementation, testing, deployment, and maintenance"
+      categories: ["concepts"]
+      url: "https://en.wikipedia.org/wiki/Systems_development_life_cycle"
+
+    - name: Automation
+      # logo: /images/sections/skills/automation.png
+      summary: "Build/test/deploy automation, scheduled jobs"
+      categories: ["concepts", "microservices", "others"]
+      url: "https://en.wikipedia.org/wiki/Automation"
+
+    - name: Machine Learning & Deep Learning
+      # logo: /images/sections/skills/ml-dl.png
+      summary: "End-to-end ML/DL: data prep, modeling, evaluation, and deployment"
+      categories: ["concepts", "data science"]
+      url: "https://en.wikipedia.org/wiki/Machine_learning"
+
+    - name: DevOps
+      # logo: /images/sections/skills/devops.png
+      summary: "CI/CD, observability, reliability, and collaboration"
+      categories: ["concepts", "microservices", "others"]
+      url: "https://en.wikipedia.org/wiki/DevOps"
+
+    - name: Software Design and Architecture
+      # logo: /images/sections/skills/architecture.png
+      summary: "Modular design, patterns, scalability, and trade-off analysis"
+      categories: ["concepts"]
+      url: "https://en.wikipedia.org/wiki/Software_architecture"
+
+    - name: Software Security
+      # logo: /images/sections/skills/security.png
+      summary: "AuthN/AuthZ, secrets, secure coding, threat modeling, and dependency hygiene"
+      categories: ["concepts"]
+      url: "https://owasp.org/"
+
+    - name: Data Analysis and Visualization
+      # logo: /images/sections/skills/data-viz.png
+      summary: "EDA, metrics, dashboards, and clear storytelling with data"
+      categories: ["concepts", "data science"]
+      url: "https://en.wikipedia.org/wiki/Data_analysis"
+
+    - name: Source Control Management
+      # logo: /images/sections/skills/scm.png
+      summary: "Branching strategies, code reviews, and release/version workflows"
+      categories: ["concepts", "others"]
+      url: "https://en.wikipedia.org/wiki/Version_control"
+
+    - name: Computer Networking
+      # logo: /images/sections/skills/networking.png
+      summary: "TCP/IP, DNS, routing/NAT, VPNs, ports, and troubleshooting"
+      categories: ["concepts"]
+      url: "https://en.wikipedia.org/wiki/Computer_network"

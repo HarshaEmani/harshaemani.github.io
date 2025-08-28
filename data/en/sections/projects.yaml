@@ -1,0 +1,47 @@
+# section information
+section:
+    name: Projects
+    id: projects
+    enable: true
+    weight: 5
+    showOnNavbar: true
+    # Can optionally hide the title in sections
+    # hideTitle: true
+
+# # filter buttons
+# buttons:
+# - name: All
+#   filter: "all"
+# - name: Professional
+#   filter: "professional"
+# - name: Academic
+#   filter: "academic"
+# - name: Hobby
+#   filter: "hobby"
+
+# your projects
+projects:
+    - name: Forecaster Tool
+      # logo:
+      # role: Contributor
+      # timeline: "March 2018 - Present"
+      repo: "https://forecaster-tool.duckdns.org/"
+      #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+      summary: Net Load Demand Forecasting Tool
+      tags: ["research", "machine-learning", "microservices"]
+
+    - name: Neural Network Implementation from Scratch
+      # logo: /images/sections/projects/tensorflow.png
+      # role: Developer
+      # timeline: "Jun 2018 - Present"
+      repo: "https://github.com/HarshaEmani/MLCourseProject/blob/main/ANN_Scratch_Implementation_Notebook.ipynb"
+      #url: ""
+      summary: A simple neural network implementation from scratch
+      tags: ["academic", "machine-learning"]
+
+    - name: MNIST Image Classification
+      # role: Team Lead
+      # timeline: "Jan 2017 - Nov 2017"
+      url: "https://github.com/HarshaEmani/MLCourseProject/blob/main/ANN_MNIST_Notebook.ipynb"
+      summary: MNIST Image Classification using a simple neural network
+      tags: ["academic", "machine learning"]
