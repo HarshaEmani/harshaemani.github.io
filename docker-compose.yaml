@@ -1,14 +1,29 @@
 version: "3.8"
-services:
-    hugo:
-        build: .
-        container_name: my-portfolio
-        ports:
-            - "8080:80"
-        restart: unless-stopped
-        networks:
-            - nginx-proxy
 
-networks:
-    nginx-proxy:
-        external: false
+volumes:
+    public: {}
+
+services:
+    hugo-build:
+        image: peaceiris/hugo:v0.146.0-full
+        working_dir: /src
+        command: >
+            --minify
+            --destination /public
+            --cleanDestinationDir
+            --baseURL http://localhost:8080
+        volumes:
+            - ./:/src
+            - public:/public
+
+    # web:
+    #     image: nginx:alpine
+    #     # If your compose supports conditions, you can use:
+    #     # depends_on:
+    #     #   hugo-build:
+    #     #     condition: service_completed_successfully
+    #     ports:
+    #         - "8080:80"
+    #     volumes:
+    #         - public:/usr/share/nginx/html:ro
+    #     restart: unless-stopped

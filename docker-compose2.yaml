@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+    hugo:
+        build: .
+        container_name: my-portfolio
+        ports:
+            - "8080:80"
+        restart: unless-stopped
+        networks:
+            - nginx-proxy
+
+networks:
+    nginx-proxy:
+        external: false
