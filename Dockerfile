@@ -10,6 +10,6 @@ COPY . /src
 # Build the site using Hugo
 RUN hugo
 
-# Stage 2: Serve the static files from the 'public' directory with Nginx
 FROM nginx:alpine
+COPY nginx.conf /etc/nginx/conf.d/default.conf
 COPY --from=build /src/public /usr/share/nginx/html
