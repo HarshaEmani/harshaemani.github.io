@@ -1,15 +1,23 @@
-import Filterizr from 'filterizr'
+import Filterizr from "filterizr";
 
-document.addEventListener('DOMContentLoaded', () => {
-  // ================== Skill cards =====================
+document.addEventListener("DOMContentLoaded", () => {
+	const holder = document.getElementById("skill-card-holder");
+	if (!holder || holder.children.length === 0) return;
 
-  // setup skill filter buttons
-  const skillCardHolder = document.getElementById('skill-card-holder')
-  if (skillCardHolder != null && skillCardHolder.children.length !== 0) {
-    // eslint-disable-next-line no-new
-    new Filterizr('.filtr-skills', {
-      layout: 'sameWidth',
-      controlsSelector: '.skill-filtr-control'
-    })
-  }
-})
+	const gridEl = document.querySelector(".filtr-skills");
+	if (!gridEl) return;
+
+	const initial = gridEl.dataset.defaultFilter || null;
+
+	const fltr = new Filterizr(".filtr-skills", {
+		layout: "sameWidth",
+		controlsSelector: ".skill-filtr-control",
+		filter: "datascience",
+		callbacks: {
+			onInit: () => {
+				fltr.filter("datascience"); // e.g., "data-science"
+				gridEl.style.visibility = ""; // show once filtered
+			},
+		},
+	});
+});

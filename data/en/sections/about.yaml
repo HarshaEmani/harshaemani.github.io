@@ -19,7 +19,7 @@ designation: MLOps Engineer
 # resume: "files/resume.pdf"
 
 # a summary about you
-summary: "I am a passionate software engineer with over 4.5 years of working experience. I developed a net load demand forecasting tool for Barbados using machine learning and artificial intelligence, and wrote a thesis about it. I am passionate about learning new things, upskilling myself and solving interesting problems. Sometimes, I work on some fun projects such as building my personal streaming service using Jellyfin, self hosted adblocker running in my homelab etc."
+summary: "I am a **Software Engineer** with **4.5+ years** of experience across a **versatile** set of technologies. I love **automating** boring tasks and creating **innovative solutions** to everyday problems. I completed a **research-based master’s**, where I built a net load demand forecasting tool for Barbados using ML and AI. I also published my thesis, which focuses on several factors that influenced my decision-making and how I arrived at building a robust tool for forecasting Barbados's net load demand. I’m **passionate** about learning, upskilling, and solving **interesting problems**. When I'm not working, I like to tinker with some fun projects such as building my personal streaming service using Jellyfin, self-hosted adblocker service running in my homelab etc."
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -60,7 +60,7 @@ socialLinks:
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
 resourceLinks:
-    - title: "My Resume"
+    - title: "Resume"
       url: "files/HarshaEmani_Resume.pdf"
 
 # Show your badges

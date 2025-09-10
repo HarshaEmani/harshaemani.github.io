@@ -25,9 +25,9 @@ projects:
       # logo:
       # role: Contributor
       # timeline: "March 2018 - Present"
-      repo: "https://forecaster-tool.duckdns.org/"
+      url: "https://forecaster-tool.harsha-homelab.me/"
       #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-      summary: Net Load Demand Forecasting Tool
+      summary: A graphic tool built using ML and AI techniques as a part of my Master's research project to help the grid operators in Barbados to better manage their RES and improve the accuracy of forecasting models.
       tags: ["research", "machine-learning", "microservices"]
 
     - name: Neural Network Implementation from Scratch
@@ -42,6 +42,23 @@ projects:
     - name: MNIST Image Classification
       # role: Team Lead
       # timeline: "Jan 2017 - Nov 2017"
-      url: "https://github.com/HarshaEmani/MLCourseProject/blob/main/ANN_MNIST_Notebook.ipynb"
+      repo: "https://github.com/HarshaEmani/MLCourseProject/blob/main/ANN_MNIST_Notebook.ipynb"
       summary: MNIST Image Classification using a simple neural network
-      tags: ["academic", "machine learning"]
+      tags: ["academic", "machine-learning"]
+
+    - name: Build Attack Surface and Attack Tree for Web Application
+      # role: Team Lead
+      # timeline: "Jan 2017 - Nov 2017"
+      repo: "https://github.com/HarshaEmani/SoftwareSecurityProject/tree/main"
+      summary: Build Attack Surface and Attack Tree for a Web Application to analyze the security of the software application
+      tags: ["academic", "software-security"]
+
+    - name: Irvine Gasoline Carbon Management App (SDC Hackathon)
+      repo: "https://github.com/HarshaEmani/SDC_Hack"
+      summary: Collaborated at SDC hackathon to build a website that compares emissions to offsets by sector and predicts future levels using past trends.
+      tags: ["hackathon", "web-development"]
+
+    - name: Machine Learning Starter Projects
+      repo: "https://github.com/HarshaEmani/SDC_Hack"
+      summary: Collection of starter ML projects completed during Udacity’s Machine Learning Nanodegree
+      tags: ["skill-development", "machine-learning"]
