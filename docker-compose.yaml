@@ -8,9 +8,13 @@ services:
             BASE_URL: ${BASE_URL:-http://localhost:8080}
         volumes:
             - ./:/src
+            # - ./entrypoint.sh:/entrypoint.sh  # Mount the script
             - public:/public
-        command: >
-            --gc --minify --destination /public --cleanDestinationDir --baseURL http://localhost:8080
+        # entrypoint: /entrypoint.sh            # Set the entrypoint
+        # entrypoint: ["npm", "ci"] # Directly run the build command
+        entrypoint: ["/bin/sh", "-c"]
+        command: > 
+            "npm install && hugo --gc --minify --destination /public --cleanDestinationDir --baseURL http://localhost:8080 && chmod -R a+r /public"
         restart: "no"
 
     web:

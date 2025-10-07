@@ -10,19 +10,25 @@ section:
 
 # Your achievements achievements
 achievements:
+    - title: Azure AI Fundamentals
+      image: /images/sections/achievements/azure_ai_fundamentals.png
+      summary: Completed Microsoft Certified - Azure AI Fundamentals certification.
+
+    - title: Machine Learning Engineer Nanodegree
+      image: /images/sections/achievements/udacity.jpg
+      summary: Completed Machine Learning Engineer Nanodegree from Udacity
+
     - title: GTS Best Team Award
       image: /images/sections/achievements/gts.jpg
       summary: Won the best team award at Global Technology Solutions for the best pitch among 5 teams for a start-up idea on a diabetes monitoring tool
-    - title: CELPIP Language Test
-      image: /images/sections/achievements/celpip.png
-      summary: Overall score of 10, with individual scores of 10 in reading, 11 in writing, 10 in listening, and 10 in speaking
-    - title: Machine Learning Engineer Nanodegree
-      image: /images/sections/achievements/udacity.jpg
-      # summary: Completed Machine Learning Engineer Nanodegree from Udacity
+
+    # - title: CELPIP Language Test
+    #   image: /images/sections/achievements/celpip.png
+    #   summary: Overall score of 10, with individual scores of 10 in reading, 11 in writing, 10 in listening, and 10 in speaking
 
     - title: Microsoft Certified - Introduction to Python
       image: /images/sections/achievements/python.jpg
-      # summary: Completed Microsoft Certified: introduction to Python certification.
+      summary: Completed Microsoft Certified - Introduction to Python certification.
     # - title: Award Winner
     #   image: /images/sections/achievements/woman-winner.jpg
     #   summary: Wined best paper award at IEE Conference 2020.
