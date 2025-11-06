@@ -21,6 +21,15 @@ section:
 
 # your projects
 projects:
+    - name: N8N Prompt Enhancer
+      # logo: /images/sections/projects/tensorflow.png
+      # role: Developer
+      # timeline: "Jun 2018 - Present"
+      repo: "https://github.com/HarshaEmani/n8n-prompt-enhancer"
+      #url: ""
+      summary: An N8N workflow that turns Telegram voice messages into intelligent and enhanced text prompts using Gemini AI. Speak to your Telegram bot, and it will automatically transcribe your voice, process your input through Gemini, and send back a contextual text prompt with RICC (Role, Input, Context, Constraints) framework.
+      tags: ["artificial-intelligence", "automation", "ai-agents"]
+
     - name: Forecaster Tool
       # logo:
       # role: Contributor
