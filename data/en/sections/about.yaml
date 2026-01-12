@@ -8,7 +8,7 @@ section:
     template: sections/about.html
 
 # your designation
-designation: MLOps Engineer
+designation: Software Engineer
 # your company information
 # company:
 #   name: Example Co.
@@ -59,9 +59,9 @@ socialLinks:
 
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
-resourceLinks:
-    - title: "Resume"
-      url: "files/Harsha_Emani_Resume.pdf"
+# resourceLinks:
+#     - title: "Resume"
+#       url: "files/Harsha_Emani_Resume.pdf"
 
 # Show your badges
 # You can show your verifiable certificates from https://www.credly.com.

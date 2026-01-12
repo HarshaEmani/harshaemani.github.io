@@ -2,7 +2,7 @@
 section:
     name: Professional Experience
     id: experiences
-    enable: true
+    enable: false
     weight: 3
     showOnNavbar: true
     # Can optionally hide the title in sections
@@ -12,7 +12,7 @@ section:
 experiences:
     - company:
           name: University of New Brunswick
-          url: "https://www.example.com"
+        #   url: "https://www.example.com"
           location: Fredericton, New Brunswick
           logo: /images/sections/experiences/unb.png
           # Can optionally show a different logo for dark theme
@@ -32,7 +32,7 @@ experiences:
 
     - company:
           name: Mariner Innovations
-          url: "https://www.example.com"
+        #   url: "https://www.example.com"
           location: Fredericton, New Brunswick
           logo: /images/sections/experiences/mariner4.png
           # Can optionally show a different logo for dark theme
@@ -48,7 +48,7 @@ experiences:
 
     - company:
           name: Broadridge Financial Solutions
-          url: "https://www.example.com"
+        #   url: "https://www.example.com"
           location: Hyderabad, India
           logo: /images/sections/experiences/br.png
           # Can optionally show a different logo for dark theme
@@ -65,7 +65,7 @@ experiences:
 
     - company:
           name: Tata Consultancy Services
-          url: "https://www.example.com"
+        #   url: "https://www.example.com"
           location: Hyderabad, India
           logo: /images/sections/experiences/tcs6.png
           # Can optionally show a different logo for dark theme
