@@ -1,12 +1,12 @@
 # # section information
-# section:
-#   name: Publications
-#   id: publications
-#   enable: true
-#   weight: 6
-#   showOnNavbar: true
-#   # Can optionally hide the title in sections
-#   # hideTitle: true
+section:
+  name: Publications
+  id: publications
+  enable: true
+  weight: 2
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
 
 # # filter buttons
 # buttons:
@@ -20,26 +20,24 @@
 #   filter: "security"
 
 # # your publications
-# publications:
-# - title: An Example Paper on Machine Learning
-#   publishedIn:
-#     name: 2020 IEEE Region Symposium (TENSYMP)
-#     date: 7 June 2020
-#     url: https://example.com
-#   authors:
-#   - name: Dr. Madman
-#     url: https://example.com
-#   - name: Dr. Lessmad
-#     url: https://example.com
-#   - name: Dr. Moremad
-#     url: https://example.com
-#   - name: Dr. Goodman
-#     url: https://example.com
-#   paper:
-#     summary: Voluptate in id id voluptate laboris. Minim mollit aliquip sit aliqua ut exercitation voluptate eiusmod consequat pariatur sunt enim veniam. Velit esse tempor laboris anim tempor officia. Magna non labore duis do esse sit do ipsum culpa. Officia consequat id non duis culpa dolor. Excepteur magna non nostrud cupidatat aute aliqua aliquip.
-#     url: https://example.com
-#   categories: ["machinelearning","image-processing"]
-#   tags: ["Machine Learning", "Autonomous Driving", "Computer Vision"]
+publications:
+- title: Hybrid LSTM–RLS day-ahead net load demand forecasting for Barbados distribution feeders
+  publishedIn:
+    name: Thesis
+    date: 7 August 2025
+    url: https://unbscholar.lib.unb.ca/items/cc8cf20b-5409-40ca-928d-c48878f9ae9c
+  authors:
+  - name: Sai Venkata Krishna Sri Harsha Emani
+    # url: https://example.com
+  - name: Dr. Julian Cardenas Barrera
+    # url: https://example.com
+  - name: Dr. Hung Cao
+    # url: https://example.com
+  # paper:
+    # summary: Voluptate in id id voluptate laboris. Minim mollit aliquip sit aliqua ut exercitation voluptate eiusmod consequat pariatur sunt enim veniam. Velit esse tempor laboris anim tempor officia. Magna non labore duis do esse sit do ipsum culpa. Officia consequat id non duis culpa dolor. Excepteur magna non nostrud cupidatat aute aliqua aliquip.
+    # url: https://example.com
+  # categories: ["machinelearning","image-processing"]
+  # tags: ["Machine Learning", "Autonomous Driving", "Computer Vision"]
 
 # - title: An Sample Paper on Image Processing
 #   publishedIn:
